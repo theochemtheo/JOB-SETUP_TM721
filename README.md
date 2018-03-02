@@ -27,7 +27,7 @@ The tools are split into four parts:
 3) Template files for `cosmoprep`, found in `$JOB-SETUP_TM721/cosmoprep`
 4) Scripts containing one or more `control` file alterations, which utilise `adg` and are found in `$JOB-SETUP_TM721/adg`
 
-Counter-intuitively, it's easiest to stated with the second of these.
+Counter-intuitively, it's easiest to start with the second of these.
 
 ### define
 In this directory you need to create templates that will be read into the [`define`](http://www.cosmologic-services.de/downloads/TM72-documentation/DOKch4.html#x17-380004) program. These are text files that are intended to replicate the inputs one would enter in an interactive session of `define`. The simplest way to go about creating one of these is to create a job from scratch and document everything you enter into the program. You can then save the file in `$JOB-SETUP_TM721/define`. It helps to make the name descriptive.
