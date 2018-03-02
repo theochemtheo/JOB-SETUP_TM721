@@ -1,0 +1,23 @@
+
+this is an example input for a simple ridft calculation for a neutral molecule
+a coord
+ired
+*
+b all dhf-SV(P)
+*
+eht
+
+
+
+dft
+func pbe0
+grid m4
+on
+*
+ri
+m 8000
+jbas
+*
+on
+*
+*

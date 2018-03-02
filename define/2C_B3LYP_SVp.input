@@ -1,0 +1,30 @@
+
+
+a coord
+ired
+*
+b all x2c-SV(P)all-2c
+*
+eht
+
+
+
+scf
+soghf
+y
+
+iter
+128
+
+dft
+func b3-lyp
+grid m4
+on
+*
+ri
+m 8000
+jbas
+*
+on
+*
+*
