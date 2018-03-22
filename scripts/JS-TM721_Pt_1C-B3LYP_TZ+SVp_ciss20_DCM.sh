@@ -5,7 +5,7 @@
 ##############################################################################
 
 # Set the names of the relevant input files
-JSTM721DEF="Pt_2C_B3LYP_TZ+SVp.input"
+JSTM721DEF="Pt_1C_B3LYP_TZ+SVp.input"
 # This must be a bash array, i.e. ("adgone.sh" "adgtwo.sh" "adgthree.sh")
 JSTM721ADG=("ciss_soes-20.sh" "x2c_1C.sh")
 JSTM721COS="DCM.input"
@@ -61,7 +61,7 @@ fi
 # Then adg
 for ADG in "${JSTM721ADG[@]}"; do
   echo "Altering control with $ADG"
-  $JSTM721/adg/$JSTM721ADG
+  $JSTM721/adg/$ADG
 done
 
 # Finally cosmoprep

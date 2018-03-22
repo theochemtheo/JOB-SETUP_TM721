@@ -5,9 +5,9 @@
 ##############################################################################
 
 # Set the names of the relevant input files
-JSTM721DEF="Pt_2C_B3LYP_TZ+SVp.input"
+JSTM721DEF="1C_B3LYP_SVp.input"
 # This must be a bash array, i.e. ("adgone.sh" "adgtwo.sh" "adgthree.sh")
-JSTM721ADG=("tdasoghf_soes-20.sh" "x2c_2C.sh")
+JSTM721ADG=("ciss_soes-20.sh" "x2c_1C.sh")
 JSTM721COS="DCM.input"
 
 

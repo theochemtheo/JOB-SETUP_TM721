@@ -44,4 +44,3 @@ The scripts in this directory combine the above templates in order to create a r
 
 ## Future-proofing
 The main concern for future-proofing is that it is possible (though unlikely given their history of trying not to do so), that the Turbomole development team will alter the functionality of either `define`, `cosmoprep` or the `control` file keywords (a.k.a. datagroups) and therefore stop existing templates from working. This will basically mean your old templates won't work, so you may need to create a new version of this repository and delete the old templates.
-s

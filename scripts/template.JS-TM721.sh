@@ -61,7 +61,7 @@ fi
 # Then adg
 for ADG in "${JSTM721ADG[@]}"; do
   echo "Altering control with $ADG"
-  $JSTM721/adg/$JSTM721ADG
+  $JSTM721/adg/$ADG
 done
 
 # Finally cosmoprep
